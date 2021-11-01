@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Book" ADD COLUMN     "id" SERIAL NOT NULL,
+ADD PRIMARY KEY ("id");
